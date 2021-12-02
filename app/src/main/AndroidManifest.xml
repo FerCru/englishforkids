@@ -9,6 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Englishfor">
+        <activity
+            android:name=".Alpahbet"
+            android:exported="true" />
+        <activity
+            android:name=".Colors"
+            android:exported="true" />
+        <activity
+            android:name=".Clothes"
+            android:exported="true" />
+        <activity
+            android:name=".Animals"
+            android:exported="true" />
+        <activity
+            android:name=".Body"
+            android:exported="true" />
+        <activity
+            android:name=".Numbers"
+            android:exported="true" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
